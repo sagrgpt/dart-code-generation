@@ -1,0 +1,3 @@
+class MapResolver{
+  const MapResolver();
+}
