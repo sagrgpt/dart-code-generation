@@ -1,7 +1,7 @@
 builders:
-  resolver_map_builder:
+  single_builder:
     import: "package:resolver_generator/builder.dart"
-    builder_factories: ["resolverMapBuilder"]
-    build_extensions: {".dart": [".resolver.dart"]}
+    builder_factories: [ "singleBuilder" ]
+    build_extensions: { r'$lib$': [ "widget_resolver.dart" ] }
     auto_apply: dependents
     build_to: source

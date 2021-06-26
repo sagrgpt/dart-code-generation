@@ -1,0 +1,48 @@
+name: example
+description: Sample package demonstrating usage of Resolver Generator
+version: 0.0.1
+author: Sagar Gupta <sagarg@nurture.farm>
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  resolver_mapper:
+    path: ../resolver_mapper
+
+dev_dependencies:
+  build_runner: ^1.0.0
+  resolver_generator:
+    path: ../resolver_generator
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
