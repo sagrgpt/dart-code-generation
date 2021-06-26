@@ -1,11 +1,14 @@
 import 'package:build/build.dart';
-import 'package:resolver_generator/src/ResolverMapGenerator.dart';
+import 'package:resolver_generator/src/map_generator.dart';
 import 'package:resolver_generator/src/single_output_builder.dart';
-import 'package:source_gen/source_gen.dart';
+import 'package:resolver_generator/src/widget_constant_generator.dart';
+import 'package:resolver_generator/src/widget_factory_blueprint_generator.dart';
 
-Builder resolverMapBuilder(BuilderOptions options) => LibraryBuilder(
-      ResolverMapGenerator(),
-      generatedExtension: '.resolver.dart',
+Builder singleBuilder(BuilderOptions options) => AggregatorBuilder(
+      {
+        '[bodyPlaceholder]': MapGenerator(),
+        '[constPlaceholder]': WidgetConstantGenerator(),
+      },
+      bluePrintGenerator: WidgetFactoryBluePrintGenerator(),
+      generatedExtension: 'widget/widget_factory.dart',
     );
-
-Builder singleBuilder(BuilderOptions options) => SingleOutputBuilder();

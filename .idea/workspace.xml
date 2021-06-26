@@ -13,23 +13,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0840fad8-422b-4044-b61a-889d8b354a53" name="Default Changelist" comment="Adding a dummy resolver">
-      <change afterPath="$PROJECT_DIR$/example/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/drama.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/workers.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/single_output_builder.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/resolver-mapper-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resolver-mapper-generator.iml" afterDir="false" />
+    <list default="true" id="0840fad8-422b-4044-b61a-889d8b354a53" name="Default Changelist" comment="Added a single output builder">
+      <change afterPath="$PROJECT_DIR$/example/lib/widget/drama.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/lib/widget/event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/lib/widget/index.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/map_generator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/widget_constant_generator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/widget_factory_blueprint_generator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolver_mapper/lib/widget_resolver_map.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/drama.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/workers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/widget/workers.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resolver_generator/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/build.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resolver_generator/lib/builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/lib/builder.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/ResolverMapGenerator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/lib/src/ResolverMapGenerator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/ResolverMapGenerator.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/single_output_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/lib/src/single_output_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/lib/annotations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_mapper/lib/annotations.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,11 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/lib/widget" />
+    </key>
   </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Adding resolver annotations">
@@ -73,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624684616003</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a single output builder">
+      <created>1624714192347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624714192347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,32 +104,37 @@
     <MESSAGE value="Adding resolver annotations" />
     <MESSAGE value="Configuring dependencies for generator" />
     <MESSAGE value="Adding a dummy resolver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a dummy resolver" />
+    <MESSAGE value="Added a single output builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a single output builder" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="456" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624710512109">
+    <state x="456" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624714446078">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="456" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1624710512109" />
-    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1624713395361">
+    <state x="456" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1624714446078" />
+    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1624725658207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1624713395361" />
+    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1624725658207" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1624729285487">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1624729285487" />
     <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1624713015820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1624713015820" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1624713478300">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1624728380675">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1624713478300" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1624728380675" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/resolver_generator/lib/src/ResolverMapGenerator.dart</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/resolver_generator/lib/src/map_generator.dart</url>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
