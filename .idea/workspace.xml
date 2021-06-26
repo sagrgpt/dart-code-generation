@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -13,23 +13,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0840fad8-422b-4044-b61a-889d8b354a53" name="Default Changelist" comment="Added a single output builder">
-      <change afterPath="$PROJECT_DIR$/example/lib/widget/drama.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/widget/event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/widget/index.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/map_generator.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/widget_constant_generator.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/widget_factory_blueprint_generator.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolver_mapper/lib/widget_resolver_map.dart" afterDir="false" />
+    <list default="true" id="0840fad8-422b-4044-b61a-889d8b354a53" name="Default Changelist" comment="Initial commit: Simple Aggregate Builder">
+      <change afterPath="$PROJECT_DIR$/analysis_generator/build.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_generator/lib/builder.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_generator/lib/src/class_name_generator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotator/lib/annotations.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/lib/analysis.gen.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/drama.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/event.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/workers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/widget/workers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resolver_generator/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/lib/builder.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/ResolverMapGenerator.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/single_output_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/lib/src/single_output_builder.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resolver_mapper/lib/annotations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_mapper/lib/annotations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/widget/drama.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/widget/drama.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/widget/event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/widget/event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/widget/index.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/widget/widget_factory.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/widget/workers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/widget/workers.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_generator/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_generator/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_generator/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_generator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/build.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/builder.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/map_generator.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/single_output_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_generator/lib/src/aggregate_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/widget_constant_generator.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/lib/src/widget_factory_blueprint_generator.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_generator/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_generator/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_generator/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/annotator/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/annotator/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/annotator/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/annotator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/lib/annotations.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/lib/widget_resolver_map.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/annotator/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolver_mapper/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/annotator/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +62,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sagar" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1uUpAKHpptpDc1gGnjQPay0kxLM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analysis_generator" />
       <recent name="$PROJECT_DIR$/example/lib/widget" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Adding resolver annotations">
       <created>1624683384669</created>
@@ -85,7 +123,28 @@
       <option name="project" value="LOCAL" />
       <updated>1624714192347</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed WidgetFactory generator">
+      <created>1624729438926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624729438926</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0840fad8-422b-4044-b61a-889d8b354a53" name="Default Changelist" comment="Completed WidgetFactory generator" />
+      <created>1624729877098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624729877098</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding generated file to vcs">
+      <created>1624730230152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624730230152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,43 +160,59 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Adding resolver annotations" />
     <MESSAGE value="Configuring dependencies for generator" />
     <MESSAGE value="Adding a dummy resolver" />
     <MESSAGE value="Added a single output builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a single output builder" />
+    <MESSAGE value="Adding generated file to vcs" />
+    <MESSAGE value="Completed WidgetFactory generator" />
+    <MESSAGE value="Initial commit: Simple Aggregate Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Simple Aggregate Builder" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="456" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624714446078">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="567" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627133699924">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="456" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1624714446078" />
-    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1624725658207">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="567" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1627133699924" />
+    <state x="663" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1627123503988">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1624725658207" />
+    <state x="663" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1627123503988" />
+    <state x="634" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627121828330">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="634" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627121828330" />
+    <state x="375" y="131" key="CommitChangelistDialog2" timestamp="1627134426685">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="375" y="131" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1627134426685" />
+    <state x="538" y="194" key="RollbackChangesDialog" timestamp="1627133755933">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="432" y="156" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1624777458991" />
+    <state x="538" y="194" key="RollbackChangesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627133755933" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1624729285487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1624729285487" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1624730234256">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624730234256" />
     <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1624713015820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1624713015820" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1624728380675">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="479" y="244" width="834" height="842" key="search.everywhere.popup" timestamp="1627133989185">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1624728380675" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/resolver_generator/lib/src/map_generator.dart</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1624730145956" />
+    <state x="479" y="244" width="834" height="842" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1627133989185" />
   </component>
 </project>

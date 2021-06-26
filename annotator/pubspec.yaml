@@ -1,4 +1,4 @@
-name: resolver_mapper
+name: annotator
 description: A simple dart package to annotate Resolvers
 version: 0.0.1
 author: Sagar Gupta <sagarg@nurture.farm>

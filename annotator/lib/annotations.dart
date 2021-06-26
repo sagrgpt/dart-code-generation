@@ -1,0 +1,3 @@
+class Analyse {
+  const Analyse();
+}

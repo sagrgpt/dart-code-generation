@@ -1,6 +1,6 @@
-import 'package:resolver_mapper/annotations.dart';
+import 'package:annotator/annotations.dart';
 
-@MapResolver('DRAMA')
+@Analyse()
 class Drama {
   final double amountCollected;
 
@@ -9,7 +9,7 @@ class Drama {
   factory Drama.fromJson(Map<String, dynamic> json) => Drama(12.1);
 }
 
-@MapResolver('FOO')
+@Analyse()
 class Foo {
   Foo();
 

@@ -1,6 +1,6 @@
-import 'package:resolver_mapper/annotations.dart';
+import 'package:annotator/annotations.dart';
 
-@MapResolver('TEST_EVENT')
+@Analyse()
 class TestEvent {
   final String name;
   final String varPath;

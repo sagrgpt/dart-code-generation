@@ -1,7 +1,0 @@
-builders:
-  single_builder:
-    import: "package:resolver_generator/builder.dart"
-    builder_factories: [ "singleBuilder" ]
-    build_extensions: { r'$lib$': [ "widget/widget_factory.dart" ] }
-    auto_apply: dependents
-    build_to: source
