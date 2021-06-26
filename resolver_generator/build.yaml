@@ -1,0 +1,7 @@
+builders:
+  resolver_map_builder:
+    import: "package:resolver_generator/builder.dart"
+    builder_factories: ["resolverMapBuilder"]
+    build_extensions: {".dart": [".resolver.dart"]}
+    auto_apply: dependents
+    build_to: source

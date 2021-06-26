@@ -13,8 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0840fad8-422b-4044-b61a-889d8b354a53" name="Default Changelist" comment="Adding resolver annotations">
-      <change beforePath="$PROJECT_DIR$/resolver_generator/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resolver_generator/pubspec.yaml" afterDir="false" />
+    <list default="true" id="0840fad8-422b-4044-b61a-889d8b354a53" name="Default Changelist" comment="Configuring dependencies for generator">
+      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/builder.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolver_generator/lib/src/ResolverMapGenerator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624683384669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configuring dependencies for generator">
+      <created>1624683611623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624683611623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,7 +62,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding resolver annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding resolver annotations" />
+    <MESSAGE value="Configuring dependencies for generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring dependencies for generator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1624683368639">
